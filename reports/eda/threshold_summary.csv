@@ -1,0 +1,4 @@
+unit_id,total_readings,exceedances,incident_readings,exceedance_percentage
+UNIT_001,2016,89,42,4.41
+UNIT_002,2016,30,30,1.49
+UNIT_003,2016,30,30,1.49

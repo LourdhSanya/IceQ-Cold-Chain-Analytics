@@ -1,0 +1,27 @@
+{
+  "target": "target_future_exceedance_30m",
+  "prediction_horizon_minutes": 30,
+  "features": [
+    "unit_id",
+    "food_type",
+    "temperature_current",
+    "humidity_current",
+    "temperature_threshold_c",
+    "temperature_margin",
+    "temperature_change_5m",
+    "temperature_change_15m",
+    "temperature_change_30m",
+    "temperature_mean_previous_30m",
+    "temperature_max_previous_30m",
+    "humidity_mean_previous_30m",
+    "hour",
+    "day_of_week"
+  ],
+  "categorical_features": [
+    "unit_id",
+    "food_type"
+  ],
+  "validation_threshold": 0.5,
+  "test_set_used": false,
+  "data_source": "simulated"
+}

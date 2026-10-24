@@ -1,0 +1,4 @@
+unit_id,food_type,count,mean,min,max,std
+UNIT_001,Dairy,2016,4.09,2.38,9.71,0.79
+UNIT_002,Produce,2016,6.04,4.39,10.53,0.66
+UNIT_003,Frozen,2016,-17.94,-19.96,-12.7,0.73
